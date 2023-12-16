@@ -1,9 +1,12 @@
 # AngularHotelBookingMap
 
+![Project preview](docs/hotel-booking-map-angular.gif)
+
 - This project was generated with Angular version 16.2.6.
 
 ## Development server
 
+- First Run `npm install`
 - Run `npm run start` for a dev server.
 - Navigate to `http://localhost:4200/`.
 
