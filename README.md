@@ -1,6 +1,6 @@
 # AngularHotelBookingMap
 
-![Project preview](docs/hotel-booking-map-angular.gif)
+![Project preview](docs/preview.gif)
 
 - This project was generated with Angular version 16.2.6.
 
