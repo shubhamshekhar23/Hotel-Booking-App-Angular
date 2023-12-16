@@ -23,10 +23,11 @@ export class GoogleMapComponent implements OnInit {
 
   addressRestMarker: any;
   centerPosition: any = {
-    lat: 48.137498,
-    lng: 11.586863,
+    lat: 25.7617,
+    lng: -80.1918,
   };
-  zoomVal = 16;
+
+  zoomVal = 4;
   activeHotelIconSrc = 'assets/home-icon-active.svg';
   inactiveHotelIconSrc = 'assets/home-icon.svg';
   markerList: any = [];

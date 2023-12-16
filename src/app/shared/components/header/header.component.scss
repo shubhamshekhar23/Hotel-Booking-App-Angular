@@ -5,6 +5,9 @@
   display: flex;
   justify-content: space-between;
   background-color: $color-main;
+  h5 {
+    margin: 0;
+  }
   img {
     cursor: pointer;
   }
