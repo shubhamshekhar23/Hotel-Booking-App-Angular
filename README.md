@@ -1,29 +1,20 @@
 # AngularHotelBookingMap
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+- This project was generated with Angular version 16.2.6.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `npm run start` for a dev server.
+- Navigate to `http://localhost:4200/`.
 
-## Code scaffolding
+## Project Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-# Angular-Hotel-Booking-Map
+- When the app loads, It makes a request to the backend to fetch the hotel lists (currently data is mocked)
+- It automatically selects the first hotel in the fecthed list and the icon changes accordingly in the map
+- When user clicks on the map icon, the list of hotels automatically scrolls and the corresponding hotel is selected
+- For Mobile, As user scrolls the hotel list, the hotel gets selected automatically based on its position in the view
+- For Desktop, The above feature is disabled and user has to manually clicks on the hotel to select it and the corresponding icon in the map gets updated
+- When user clicks on the Book button in any hotel, That particular hotel gets selected in the background and a booking form dialog gets opened.
+- When user provides its info in the form, proper validation is in its place and user gets to see the error message if he doesn't provide any info
+- The request booking button is disabled until all valdiation in the form passes
+- Unit Tests are added for all the components and service
