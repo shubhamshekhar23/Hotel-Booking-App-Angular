@@ -1,4 +1,4 @@
-# AngularHotelBookingMap
+# Hotel Booking Map (Angular)
 
 ![Project preview](docs/preview.gif)
 
