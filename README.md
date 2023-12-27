@@ -1,4 +1,4 @@
-# AngularHotelBookingMap
+# Hotel Booking App : "HotelQuest" (Angular)
 
 ![Project preview](docs/preview.gif)
 
