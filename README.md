@@ -1,5 +1,7 @@
 # Hotel Booking App : "HotelQuest" (Angular)
 
+- `Live` : <https://shubhamshekhar23.github.io/Hotel-Booking-App-Angular/>
+
 ![Project preview](docs/preview.gif)
 
 - This project was generated with Angular version 16.2.6.
